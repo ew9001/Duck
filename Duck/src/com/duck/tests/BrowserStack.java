@@ -1,15 +1,13 @@
 package com.duck.tests;
 
-import static org.junit.Assert.assertTrue;
-import static org.junit.Assert.fail;
-
+import org.junit.Before;
+import org.junit.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.Capabilities;
 
 import java.net.URL;
 
@@ -20,8 +18,8 @@ public class BrowserStack {
   public static final String URL = "http://" + USERNAME + ":" + AUTOMATE_KEY + "@hub.browserstack.com/wd/hub";
 
   
-  
-  public static void main(String[] args) throws Exception {
+  @Test
+  public void testPageLoadsBrowserStack() throws Exception {
  
 
     
@@ -76,4 +74,5 @@ public class BrowserStack {
     driver.quit();
 
   }
+  
 }

@@ -60,6 +60,14 @@
             <classpath refid="Duck.classpath"/>
         </junit>
     </target>
+	  <target name="VideoPopAflac">
+	        <mkdir dir="${junit.output.dir}"/>
+	        <junit fork="yes" printsummary="withOutAndErr">
+	            <formatter type="xml"/>
+	            <test name="com.duck.tests.VideoPopAflac" todir="${junit.output.dir}"/>
+	            <classpath refid="Duck.classpath"/>
+	        </junit>
+	    </target>
     <target name="BrowserStack">
         <mkdir dir="${junit.output.dir}"/>
         <junit fork="yes" printsummary="withOutAndErr">
