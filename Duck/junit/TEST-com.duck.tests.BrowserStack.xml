@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="1" failures="0" hostname="na1dpkapl1111v.na.pubgroupe.net" name="com.duck.tests.BrowserStack" tests="1" time="12.243" timestamp="2014-03-13T14:05:50">
+<testsuite errors="1" failures="0" hostname="na1dpkapl1111v.na.pubgroupe.net" name="com.duck.tests.BrowserStack" tests="1" time="13.088" timestamp="2014-03-13T14:37:41">
   <properties>
     <property name="java.vendor" value="Sun Microsystems Inc." />
     <property name="env.SESSION_MANAGER" value="local/unix:@/tmp/.ICE-unix/3363,unix/unix:/tmp/.ICE-unix/3363" />
@@ -63,7 +63,7 @@
     <property name="java.vm.vendor" value="Sun Microsystems Inc." />
     <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
     <property name="ant.file.Duck" value="/home/ewillis/workspace/Duck/build.xml" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.duck.tests.BrowserStack filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/ewillis/workspace/Duck/junit/TEST-com.duck.tests.BrowserStack.xml crashfile=/home/ewillis/workspace/Duck/junitvmwatcher3589644448692906404.properties propsfile=/home/ewillis/workspace/Duck/junit5177622082625745525.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.duck.tests.BrowserStack filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/ewillis/workspace/Duck/junit/TEST-com.duck.tests.BrowserStack.xml crashfile=/home/ewillis/workspace/Duck/junitvmwatcher8440555269996131943.properties propsfile=/home/ewillis/workspace/Duck/junit4515829427275210895.properties" />
     <property name="java.class.path" value="/home/ewillis/workspace/Duck/bin:/home/ewillis/Documents/selenium-server-standalone-2.38.0.jar:/usr/share/eclipse/dropins/junit-4.11.jar:/usr/share/java/junit-3.8.2.jar:/usr/share/java/ant-launcher-1.7.1.jar:/usr/share/java/ant-1.7.1.jar:/usr/share/java/ant/ant-junit-1.7.1.jar" />
     <property name="ant.version" value="Apache Ant version 1.7.1 compiled on August 24 2010" />
     <property name="env.CVS_RSH" value="ssh" />
@@ -98,36 +98,36 @@
     <property name="java.specification.version" value="1.6" />
     <property name="env.SSH_ASKPASS" value="/usr/libexec/openssh/gnome-ssh-askpass" />
   </properties>
-  <testcase classname="com.duck.tests.BrowserStack" name="testPageLoadsBrowserStack" time="12.107">
+  <testcase classname="com.duck.tests.BrowserStack" name="testPageLoadsBrowserStack" time="12.956">
     <error message="Element is no longer valid (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 109 milliseconds
+Command duration or timeout: 110 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: &apos;2.39.0&apos;, revision: &apos;ff23eac&apos;, time: &apos;2013-12-16 16:11:15&apos;
-System info: host: &apos;ip-0A7639FA&apos;, ip: &apos;208.52.166.110&apos;, os.name: &apos;windows&apos;, os.arch: &apos;x86&apos;, os.version: &apos;5.2&apos;, java.version: &apos;1.7.0_51&apos;
-Session ID: d650fff3-a9ec-4eec-9825-c9bf9daa6522
+System info: host: &apos;ip-0A7639FA&apos;, ip: &apos;208.52.148.85&apos;, os.name: &apos;windows&apos;, os.arch: &apos;x86&apos;, os.version: &apos;5.2&apos;, java.version: &apos;1.7.0_51&apos;
+Session ID: 7a1453f0-05a9-49af-b0e0-704cd2c0318f
 Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, ignoreZoomSetting=false, enablePersistentHover=true, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=7, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, handlesAlerts=true, initialBrowserUrl=http://localhost:36573/, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
-Command duration or timeout: 794 milliseconds
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, ignoreZoomSetting=false, enablePersistentHover=true, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=7, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, handlesAlerts=true, initialBrowserUrl=http://localhost:9759/, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+Command duration or timeout: 365 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: &apos;2.38.0&apos;, revision: &apos;bd32d4e&apos;, time: &apos;2013-12-05 16:15:38&apos;
 System info: host: &apos;na1dpkapl1111v.na.pubgroupe.net&apos;, ip: &apos;10.10.10.34&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;2.6.32-358.23.2.el6.x86_64&apos;, java.version: &apos;1.6.0_24&apos;
-Session ID: 21239bf677d3ec69d121950ffa91e629b3b608dd
+Session ID: 9c7313a07a00d149530a67b960838ee3c4e4c89b
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, ignoreZoomSetting=false, enablePersistentHover=true, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, webdriver.remote.sessionid=21239bf677d3ec69d121950ffa91e629b3b608dd, version=7, ie.usePerProcessProxy=false, ignoreProtectedModeSettings=false, cssSelectorsEnabled=true, requireWindowFocus=false, handlesAlerts=true, initialBrowserUrl=http://localhost:36573/, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]" type="org.openqa.selenium.StaleElementReferenceException">org.openqa.selenium.StaleElementReferenceException: Element is no longer valid (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 109 milliseconds
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, ignoreZoomSetting=false, enablePersistentHover=true, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, webdriver.remote.sessionid=9c7313a07a00d149530a67b960838ee3c4e4c89b, version=7, ie.usePerProcessProxy=false, ignoreProtectedModeSettings=false, cssSelectorsEnabled=true, requireWindowFocus=false, handlesAlerts=true, initialBrowserUrl=http://localhost:9759/, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]" type="org.openqa.selenium.StaleElementReferenceException">org.openqa.selenium.StaleElementReferenceException: Element is no longer valid (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 110 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: &apos;2.39.0&apos;, revision: &apos;ff23eac&apos;, time: &apos;2013-12-16 16:11:15&apos;
-System info: host: &apos;ip-0A7639FA&apos;, ip: &apos;208.52.166.110&apos;, os.name: &apos;windows&apos;, os.arch: &apos;x86&apos;, os.version: &apos;5.2&apos;, java.version: &apos;1.7.0_51&apos;
-Session ID: d650fff3-a9ec-4eec-9825-c9bf9daa6522
+System info: host: &apos;ip-0A7639FA&apos;, ip: &apos;208.52.148.85&apos;, os.name: &apos;windows&apos;, os.arch: &apos;x86&apos;, os.version: &apos;5.2&apos;, java.version: &apos;1.7.0_51&apos;
+Session ID: 7a1453f0-05a9-49af-b0e0-704cd2c0318f
 Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, ignoreZoomSetting=false, enablePersistentHover=true, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=7, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, handlesAlerts=true, initialBrowserUrl=http://localhost:36573/, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
-Command duration or timeout: 794 milliseconds
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, ignoreZoomSetting=false, enablePersistentHover=true, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=7, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, handlesAlerts=true, initialBrowserUrl=http://localhost:9759/, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+Command duration or timeout: 365 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: &apos;2.38.0&apos;, revision: &apos;bd32d4e&apos;, time: &apos;2013-12-05 16:15:38&apos;
 System info: host: &apos;na1dpkapl1111v.na.pubgroupe.net&apos;, ip: &apos;10.10.10.34&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;2.6.32-358.23.2.el6.x86_64&apos;, java.version: &apos;1.6.0_24&apos;
-Session ID: 21239bf677d3ec69d121950ffa91e629b3b608dd
+Session ID: 9c7313a07a00d149530a67b960838ee3c4e4c89b
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, ignoreZoomSetting=false, enablePersistentHover=true, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, webdriver.remote.sessionid=21239bf677d3ec69d121950ffa91e629b3b608dd, version=7, ie.usePerProcessProxy=false, ignoreProtectedModeSettings=false, cssSelectorsEnabled=true, requireWindowFocus=false, handlesAlerts=true, initialBrowserUrl=http://localhost:36573/, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, ignoreZoomSetting=false, enablePersistentHover=true, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, webdriver.remote.sessionid=9c7313a07a00d149530a67b960838ee3c4e4c89b, version=7, ie.usePerProcessProxy=false, ignoreProtectedModeSettings=false, cssSelectorsEnabled=true, requireWindowFocus=false, handlesAlerts=true, initialBrowserUrl=http://localhost:9759/, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:534)
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
@@ -141,13 +141,13 @@ System info: host: &apos;na1dpkapl1111v.na.pubgroupe.net&apos;, ip: &apos;10.10.
 Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:125)
 Caused by: org.openqa.selenium.StaleElementReferenceException: Element is no longer valid (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 109 milliseconds
+Command duration or timeout: 110 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: &apos;2.39.0&apos;, revision: &apos;ff23eac&apos;, time: &apos;2013-12-16 16:11:15&apos;
-System info: host: &apos;ip-0A7639FA&apos;, ip: &apos;208.52.166.110&apos;, os.name: &apos;windows&apos;, os.arch: &apos;x86&apos;, os.version: &apos;5.2&apos;, java.version: &apos;1.7.0_51&apos;
-Session ID: d650fff3-a9ec-4eec-9825-c9bf9daa6522
+System info: host: &apos;ip-0A7639FA&apos;, ip: &apos;208.52.148.85&apos;, os.name: &apos;windows&apos;, os.arch: &apos;x86&apos;, os.version: &apos;5.2&apos;, java.version: &apos;1.7.0_51&apos;
+Session ID: 7a1453f0-05a9-49af-b0e0-704cd2c0318f
 Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, ignoreZoomSetting=false, enablePersistentHover=true, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=7, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, handlesAlerts=true, initialBrowserUrl=http://localhost:36573/, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
+Capabilities [{platform=WINDOWS, javascriptEnabled=true, elementScrollBehavior=0, ignoreZoomSetting=false, enablePersistentHover=true, ie.ensureCleanSession=false, browserName=internet explorer, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss, version=7, ie.usePerProcessProxy=false, cssSelectorsEnabled=true, ignoreProtectedModeSettings=false, requireWindowFocus=false, handlesAlerts=true, initialBrowserUrl=http://localhost:9759/, ie.forceCreateProcessApi=false, nativeEvents=true, browserAttachTimeout=0, ie.browserCommandLineSwitches=, takesScreenshot=true}]
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: &apos;2.38.0&apos;, revision: &apos;bd32d4e&apos;, time: &apos;2013-12-05 16:15:38&apos;
 System info: host: &apos;na1dpkapl1111v.na.pubgroupe.net&apos;, ip: &apos;10.10.10.34&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;2.6.32-358.23.2.el6.x86_64&apos;, java.version: &apos;1.6.0_24&apos;
