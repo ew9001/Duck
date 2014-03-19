@@ -19,7 +19,7 @@ public class BrowserStack {
 
   
   @Test
-  public void testPageLoadsBrowserStack() throws Exception {
+  public class TestPageLoadsBrowserStack() throws Exception {
  
 
     
